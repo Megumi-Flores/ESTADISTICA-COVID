@@ -24,7 +24,7 @@ $(document).ready(function(){
           {
             label: "Nuevos Casos Confirmados",//color/nombre que identifica
             data: confirmed,// datos a graficar (eje y)
-            backgroundColor: "#F1C40F",//AMARILLO
+            backgroundColor: "yellow",
             minBarLength: 100, //longitud de la barra
           }
         ]

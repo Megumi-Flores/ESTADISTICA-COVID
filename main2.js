@@ -24,7 +24,7 @@ $(document).ready(function(){
           {
             label: "Casos Fallecidos",//color/nombre que identifica
             data: confirmed,// datos a graficar (eje y)
-            backgroundColor: "#FF2424",//ROJO
+            backgroundColor: "red",
             minBarLength: 100, //longitud de la barra
           }
         ]
