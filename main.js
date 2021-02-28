@@ -11,3 +11,22 @@ $(document).ready(function(){
 		total_deaths = data.statewise[0]total_deaths
 		total_confirmed = data.statewise[0]total_confirmed
 })
+
+
+
+[
+  {
+    "active": "Switzerland",
+    "confirmed": "",
+    "deaths": "0",
+    "recovered": "0",
+    "date": "29/04/2020 22:37:46"
+  },
+  {
+    "active": "Switzerland",
+    "confirmed": "",
+    "deaths": "0",
+    "recovered": "0",
+    "date": "29/04/2020 22:37:46"
+  }
+]
