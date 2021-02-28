@@ -18,7 +18,7 @@ $(document).ready(function(){
         labels: date,//ordenado por fecha (eje x)
         datasets:[
           {
-            label: "New Confirmed Cases",//color/nombre que identifica
+            label: "Nuevos Casos Confirmados",//color/nombre que identifica
             data: confirmed,// datos a graficar (eje y)
             backgroundColor: "#f1c40f",
             minBarLength: 100, //longitud de la barra
