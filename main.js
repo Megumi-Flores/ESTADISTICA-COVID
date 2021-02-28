@@ -1,16 +1,20 @@
+
+//almacenamos los datos del json en 2 arrays
 $(document).ready(function(){
-	var url  = "https://raw.githubusercontent.com/Megumi-Flores/ESTADISTICA-COVID/main/data.json"
+	var url  = "https://raw.githubusercontent.com/Megumi-Flores/ESTADISTICA-COVID/main/data.json"/*en linea*/
 	$.getJSON(url,function(data){
 		console.log(data)
-    var date = []
-    var confirmed = []
-    $.each(data.newconfirmeds,function(id,obj){
+    var date = []//variable para almacenar fecha
+    var confirmed = []//variable para almacenar confirmados
+    $.each(data.newconfirmeds,function(id,obj){//sirve para pasar los datos
       date.push(obj.date)
       confirmed.push(obj.newconfirmed)
     })
-    console.log(confirmed)
+    console.log(confirmed)//necesario´para confirmar f12
     confirmed.shift()
+
 //////////////////////////////////////////////////////////////////////
+// para el grafico
     var myChart = document.getElementById("myChart").getContext('2d')
     var chart = new Chart(myChart, {
       type: 'line',//tipo de grafico
